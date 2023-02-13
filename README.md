@@ -1,5 +1,5 @@
-# React Template
-This is personal react template based on webpack.
+# Atomic design system doodle testbed
+This is personal atomic design system doodle testbed.
 
 - webpack
 - react
