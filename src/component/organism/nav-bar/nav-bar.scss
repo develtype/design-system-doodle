@@ -1,0 +1,10 @@
+@use '/src/style/css/variable/color.scss';
+
+.root {
+  float: left;
+  width: 250px;
+  height: 100%;
+  padding-top: 50px;
+  background-color: color.$primary-color;
+  color: color.$white;
+}

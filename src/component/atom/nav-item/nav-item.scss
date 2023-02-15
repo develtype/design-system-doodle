@@ -1,0 +1,19 @@
+@use '/src/style/css/variable/color.scss';
+@use '/src/style/css/mixin/font.scss';
+
+.root {
+  display: flex;
+  height: 60px;
+  padding: 0 30px;
+  text-decoration: none;
+  color: color.$gray-700;
+  align-items: center;
+  @include font.nav-font;
+  &:hover {
+    text-decoration: underline;
+  }
+  &.isActive {
+    color: color.$white;
+  }
+}
+

@@ -6,6 +6,13 @@ body {
   color: color.$default-black-color
 }
 
+html,
+body,
+div[id='root'] {
+  height: 100%;
+  box-sizing: border-box;
+}
+
 div,
 ul,
 ol,

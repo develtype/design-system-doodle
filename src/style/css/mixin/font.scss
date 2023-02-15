@@ -38,6 +38,12 @@
   font-weight: 700;
 }
 
+@mixin nav-font {
+  @include font-family;
+  font-size: 20px;
+  font-weight: 700;
+}
+
 @mixin default {
   @include font-family;
   font-size: 16px;
